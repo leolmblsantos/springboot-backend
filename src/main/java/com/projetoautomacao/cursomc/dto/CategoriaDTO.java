@@ -1,4 +1,4 @@
-package com.projetoautomacao.cursomc.cursomc.dto;
+package com.projetoautomacao.cursomc.dto;
 
 import java.io.Serializable;
 

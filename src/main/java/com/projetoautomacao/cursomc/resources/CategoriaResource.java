@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.projetoautomacao.cursomc.cursomc.dto.CategoriaDTO;
 import com.projetoautomacao.cursomc.domain.Categoria;
+import com.projetoautomacao.cursomc.dto.CategoriaDTO;
 import com.projetoautomacao.cursomc.services.CategoriaService;
 
 @RestController

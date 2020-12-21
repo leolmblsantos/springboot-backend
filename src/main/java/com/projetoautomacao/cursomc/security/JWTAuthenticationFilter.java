@@ -17,7 +17,7 @@ import org.springframework.security.web.authentication.AuthenticationFailureHand
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.projetoautomacao.cursomc.cursomc.dto.CredenciaisDTO;
+import com.projetoautomacao.cursomc.dto.CredenciaisDTO;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 

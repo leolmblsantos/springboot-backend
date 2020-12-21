@@ -10,8 +10,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
-import com.projetoautomacao.cursomc.cursomc.dto.CategoriaDTO;
 import com.projetoautomacao.cursomc.domain.Categoria;
+import com.projetoautomacao.cursomc.dto.CategoriaDTO;
 import com.projetoautomacao.cursomc.repositories.CategoriaRepository;
 import com.projetoautomacao.cursomc.services.exceptions.DataIntegrityException;
 import com.projetoautomacao.cursomc.services.exceptions.ObjectNotFoundException;

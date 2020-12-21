@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.projetoautomacao.cursomc.cursomc.dto.ProdutoDTO;
 import com.projetoautomacao.cursomc.domain.Produto;
+import com.projetoautomacao.cursomc.dto.ProdutoDTO;
 import com.projetoautomacao.cursomc.resources.utils.URL;
 import com.projetoautomacao.cursomc.services.ProdutoService;
 

@@ -11,8 +11,8 @@ import javax.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerMapping;
 
-import com.projetoautomacao.cursomc.cursomc.dto.ClienteDTO;
 import com.projetoautomacao.cursomc.domain.Cliente;
+import com.projetoautomacao.cursomc.dto.ClienteDTO;
 import com.projetoautomacao.cursomc.repositories.ClienteRepository;
 import com.projetoautomacao.cursomc.resources.exception.FieldMessage;
 

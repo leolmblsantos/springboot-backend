@@ -12,13 +12,13 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.projetoautomacao.cursomc.cursomc.dto.ClienteDTO;
-import com.projetoautomacao.cursomc.cursomc.dto.ClienteNewDTO;
 import com.projetoautomacao.cursomc.domain.Cidade;
 import com.projetoautomacao.cursomc.domain.Cliente;
 import com.projetoautomacao.cursomc.domain.Endereco;
 import com.projetoautomacao.cursomc.domain.enums.Perfil;
 import com.projetoautomacao.cursomc.domain.enums.TipoCliente;
+import com.projetoautomacao.cursomc.dto.ClienteDTO;
+import com.projetoautomacao.cursomc.dto.ClienteNewDTO;
 import com.projetoautomacao.cursomc.repositories.ClienteRepository;
 import com.projetoautomacao.cursomc.repositories.EnderecoRepository;
 import com.projetoautomacao.cursomc.security.UserSS;
